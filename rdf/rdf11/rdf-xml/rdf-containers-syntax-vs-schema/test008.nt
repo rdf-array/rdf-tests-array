@@ -11,5 +11,5 @@
 # $Id$
 # 
 #####################################################################
-<http://desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "1" .
-<http://desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "1-again" .
+<http://desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "1" .
+<http://desc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "1-again" .

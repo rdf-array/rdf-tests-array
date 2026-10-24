@@ -283,6 +283,7 @@ is not an error.
 
 <#rdf-containers-syntax-vs-schema-test001> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test001";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     Simple container
   """;
@@ -292,6 +293,7 @@ is not an error.
 
 <#rdf-containers-syntax-vs-schema-test002> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test002";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     rdf:li is unaffected by other rdf:_nnn properties. This test
 case is concerned only with defining the triples that this
@@ -306,6 +308,7 @@ properties that may be defined for a resource.
 
 <#rdf-containers-syntax-vs-schema-test003> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test003";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     rdf:li elements can exist in any description element
   """;
@@ -315,6 +318,7 @@ properties that may be defined for a resource.
 
 <#rdf-containers-syntax-vs-schema-test004> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test004";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     rdf:li elements match any of the property element productions
   """;
@@ -333,6 +337,7 @@ properties that may be defined for a resource.
 
 <#rdf-containers-syntax-vs-schema-test007> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test007";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     rdf:li processing within each element is independent
   """;
@@ -342,6 +347,7 @@ properties that may be defined for a resource.
 
 <#rdf-containers-syntax-vs-schema-test008> a rdft:TestXMLEval;
   mf:name "rdf-containers-syntax-vs-schema-test008";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     rdf:li processing is per element, not per resource.
   """;
@@ -440,6 +446,7 @@ xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" attribute.
 
 <#rdf-ns-prefix-confusion-test0011> a rdft:TestXMLEval;
   mf:name "rdf-ns-prefix-confusion-test0011";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     Non-prefixed RDF elements (NOT attributes) are allowed when a
 default XML element namespace is defined with an
@@ -451,6 +458,7 @@ xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" attribute.
 
 <#rdf-ns-prefix-confusion-test0012> a rdft:TestXMLEval;
   mf:name "rdf-ns-prefix-confusion-test0012";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     Non-prefixed RDF elements (NOT attributes) are allowed when a
 default XML element namespace is defined with an
@@ -462,6 +470,7 @@ xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" attribute.
 
 <#rdf-ns-prefix-confusion-test0013> a rdft:TestXMLEval;
   mf:name "rdf-ns-prefix-confusion-test0013";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     Non-prefixed RDF elements (NOT attributes) are allowed when a
 default XML element namespace is defined with an
@@ -473,6 +482,7 @@ xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" attribute.
 
 <#rdf-ns-prefix-confusion-test0014> a rdft:TestXMLEval;
   mf:name "rdf-ns-prefix-confusion-test0014";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     Non-prefixed RDF elements (NOT attributes) are allowed when a
 default XML element namespace is defined with an
@@ -782,6 +792,7 @@ describes an un-named resource, aka a bNode.
 
 <#rdfms-identity-anon-resources-test004> a rdft:TestXMLEval;
   mf:name "rdfms-identity-anon-resources-test004";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     a RDF container (in this case an Alt) without an ID attribute
 describes an un-named resource, aka a bNode.
@@ -1345,6 +1356,7 @@ modified by XML Namespaces).
 
 <#rdfms-rdf-names-use-test-031> a rdft:TestXMLEval;
   mf:name "rdfms-rdf-names-use-test-031";
+  rdfs:comment "rdf-array: rdf:li is no longer numbered into rdf:_1, rdf:_2, ...; the expected result keeps rdf:li" ;
   rdfs:comment """
     li is allowed as a property element name.
   """;
@@ -1454,6 +1466,7 @@ statements for all description elements.
 
 <#rdfms-seq-representation-test001> a rdft:TestXMLEval;
   mf:name "rdfms-seq-representation-test001";
+  rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
   rdfs:comment """
     rdf:parseType="Collection" is parsed like the nonstandard
 daml:collection.
@@ -1464,6 +1477,7 @@ daml:collection.
 
 <#rdfms-seq-representation-test002> a rdft:TestXMLEval;
   mf:name "rdfms-seq-representation-test002";
+  rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
   rdfs:comment """
     rdf:parseType="Collection" and rdf:ID.
   """;

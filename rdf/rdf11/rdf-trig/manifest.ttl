@@ -833,6 +833,7 @@
 
 <#blankNodePropertyList_containing_collection> rdf:type rdft:TestTrigEval ;
     mf:name      "blankNodePropertyList_containing_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "blankNodePropertyList containing collection [ <p1> ( … ) ]" ;
     rdft:approval rdft:Approved ;
     mf:action    <blankNodePropertyList_containing_collection.trig> ;
@@ -841,6 +842,7 @@
 
 <#collection_subject> rdf:type rdft:TestTrigEval ;
     mf:name      "collection_subject" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "collection subject" ;
     rdft:approval rdft:Approved ;
     mf:action    <collection_subject.trig> ;
@@ -849,6 +851,7 @@
 
 <#collection_object> rdf:type rdft:TestTrigEval ;
     mf:name      "collection_object" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "collection object" ;
     rdft:approval rdft:Approved ;
     mf:action    <collection_object.trig> ;
@@ -857,6 +860,7 @@
 
 <#empty_collection> rdf:type rdft:TestTrigEval ;
     mf:name      "empty_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "empty collection ()" ;
     rdft:approval rdft:Approved ;
     mf:action    <empty_collection.trig> ;
@@ -865,6 +869,7 @@
 
 <#nested_collection> rdf:type rdft:TestTrigEval ;
     mf:name      "nested_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "nested collection (())" ;
     rdft:approval rdft:Approved ;
     mf:action    <nested_collection.trig> ;
@@ -873,6 +878,7 @@
 
 <#first> rdf:type rdft:TestTrigEval ;
     mf:name      "first" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "first, not last, non-empty nested collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <first.trig> ;
@@ -881,6 +887,7 @@
 
 <#last> rdf:type rdft:TestTrigEval ;
     mf:name      "last" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "last, not first, non-empty nested collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <last.trig> ;
@@ -2452,6 +2459,7 @@
 
 <#trig-subm-08> rdf:type rdft:TestTrigEval ;
     mf:name    "trig-subm-08" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "simple collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <trig-subm-08.trig> ;
@@ -2460,6 +2468,7 @@
 
 <#trig-subm-09> rdf:type rdft:TestTrigEval ;
     mf:name    "trig-subm-09" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "empty collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <trig-subm-09.trig> ;

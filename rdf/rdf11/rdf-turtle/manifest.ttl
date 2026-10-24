@@ -689,6 +689,7 @@
 
 <#blankNodePropertyList_containing_collection> rdf:type rdft:TestTurtleEval ;
     mf:name      "blankNodePropertyList_containing_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "blankNodePropertyList containing collection [ <p1> ( … ) ]" ;
     rdft:approval rdft:Approved ;
     mf:action    <blankNodePropertyList_containing_collection.ttl> ;
@@ -697,6 +698,7 @@
 
 <#collection_subject> rdf:type rdft:TestTurtleEval ;
     mf:name      "collection_subject" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "collection subject" ;
     rdft:approval rdft:Approved ;
     mf:action    <collection_subject.ttl> ;
@@ -705,6 +707,7 @@
 
 <#collection_object> rdf:type rdft:TestTurtleEval ;
     mf:name      "collection_object" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "collection object" ;
     rdft:approval rdft:Approved ;
     mf:action    <collection_object.ttl> ;
@@ -713,6 +716,7 @@
 
 <#empty_collection> rdf:type rdft:TestTurtleEval ;
     mf:name      "empty_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "empty collection ()" ;
     rdft:approval rdft:Approved ;
     mf:action    <empty_collection.ttl> ;
@@ -721,6 +725,7 @@
 
 <#nested_collection> rdf:type rdft:TestTurtleEval ;
     mf:name      "nested_collection" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "nested collection (())" ;
     rdft:approval rdft:Approved ;
     mf:action    <nested_collection.ttl> ;
@@ -729,6 +734,7 @@
 
 <#first> rdf:type rdft:TestTurtleEval ;
     mf:name      "first" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "first, not last, non-empty nested collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <first.ttl> ;
@@ -737,6 +743,7 @@
 
 <#last> rdf:type rdft:TestTurtleEval ;
     mf:name      "last" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "last, not first, non-empty nested collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <last.ttl> ;
@@ -1636,6 +1643,7 @@
 
 <#turtle-eval-lists-01> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-01" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "empty list" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-01.ttl> ;
@@ -1644,6 +1652,7 @@
 
 <#turtle-eval-lists-02> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-02" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "mixed list" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-02.ttl> ;
@@ -1652,6 +1661,7 @@
 
 <#turtle-eval-lists-03> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-03" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "isomorphic list as subject and object" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-03.ttl> ;
@@ -1660,6 +1670,7 @@
 
 <#turtle-eval-lists-04> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-04" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "lists of lists" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-04.ttl> ;
@@ -1668,6 +1679,7 @@
 
 <#turtle-eval-lists-05> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-05" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "mixed lists with embedded lists" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-05.ttl> ;
@@ -1676,6 +1688,7 @@
 
 <#turtle-eval-lists-06> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-eval-lists-06" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "list containing blank node with abbreviated term" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-eval-lists-06.ttl> ;
@@ -2342,6 +2355,7 @@
 
 <#turtle-subm-08> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-subm-08" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "simple collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-subm-08.ttl> ;
@@ -2350,6 +2364,7 @@
 
 <#turtle-subm-09> rdf:type rdft:TestTurtleEval ;
     mf:name    "turtle-subm-09" ;
+    rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
     rdfs:comment "empty collection" ;
     rdft:approval rdft:Approved ;
     mf:action    <turtle-subm-09.ttl> ;

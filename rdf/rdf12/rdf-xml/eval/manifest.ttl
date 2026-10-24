@@ -233,12 +233,14 @@ trs:rdf12-xml-an-14 rdf:type rdft:TestXMLEval;
 
 trs:rdf12-xml-an-15 rdf:type rdft:TestXMLEval;
   mf:name     "rdf12-xml-an-15";
+  rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
   rdfs:comment  """rdf:annotation and parseType="Collection".""";
   mf:action   <rdf12-xml-an-15.rdf>;
   mf:result   <rdf12-xml-an-15.nt> .
 
 trs:rdf12-xml-an-16 rdf:type rdft:TestXMLEval;
   mf:name     "rdf12-xml-an-16";
+  rdfs:comment "rdf-array: a collection is one sequence term; the expected result has ( ... ) where it had an rdf:first/rdf:rest ladder" ;
   rdfs:comment  """rdf:annotationNodeID and parseType="Collection".""";
   mf:action   <rdf12-xml-an-16.rdf>;
   mf:result   <rdf12-xml-an-16.nt> .
