@@ -88,7 +88,7 @@ numbered into `rdf:_1`, `rdf:_2`, …: it stays the `rdf:li` property (twelve te
 - **`trig12-syntax-bad-06`** puts a collection inside a reified triple, which RDF 1.2 forbids because a
   collection generates triples. A sequence generates none, so rdf-array could allow it, but neither
   jena-array nor N3.js-array does today; it stays negative and is an open question in
-  [rdf-array.md](https://rdf-array.github.io/rdf-array/rdf-array.html).
+  [rdf-array.md](https://rdf-array.github.io/rdf-array/docs/rdf-array.html).
 - **`rdfms-rdf-names-use-test-013/014/016/028/029`** use `rdf:first`, `rdf:rest`, `rdf:nil` as property
   names in RDF/XML; their expectations are ordinary triples.
 - **RDF semantics** (`rdf11/rdf-mt`, `rdf12/rdf-semantics`): no test data uses collections or the list
